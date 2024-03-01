@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/menuOpciones"
+        android:icon="@drawable/baseline_menu_24"
+        android:title=""
+        app:showAsAction="ifRoom">
+        <menu>
+            <item
+                android:id="@+id/todosPaises"
+                android:title="@string/todopais"
+                />
+            <item
+                android:id="@+id/paisesUE"
+                android:title="@string/ue"
+                />
+            <item
+                android:id="@+id/paisesNoUE"
+                android:title="@string/noue"/>
+        </menu>
+    </item>
+</menu>

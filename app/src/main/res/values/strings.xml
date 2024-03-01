@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">PruebaExamen</string>
+    <string name="ue">Unión Europea</string>
+    <string name="noue">Resto de países</string>
+    <string name="todopais">Todos los países</string>
+    <string name="volver">Volver</string>
+</resources>
